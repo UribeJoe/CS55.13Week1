@@ -13,7 +13,7 @@ let myserver = myhttp.createServer(
     if (myrequest.url === "/hey") {
       mytext = "Well hello there...";
     } else {
-      mytext = "Welcome All, You Are Now My Friend.";
+      mytext = "Welcome All, You Are Now My Friend";
     }
 
     mytext = mytext + " - Please help me... I'm Lost!";
